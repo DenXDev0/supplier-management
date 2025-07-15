@@ -1,8 +1,4 @@
-import { ReactNode } from 'react';
-import {
-  FaUserGroup, FaUserPlus, FaPersonWalkingDashedLineArrowRight,
-  FaStopwatch
-} from "react-icons/fa6";
+import { FaUserGroup, FaUserPlus, FaPersonWalkingDashedLineArrowRight, FaStopwatch } from "react-icons/fa6";
 import { PiChartLineUp, PiChartLineDown } from "react-icons/pi";
 
 export interface DataType {
@@ -15,12 +11,7 @@ export interface DataType {
   status: string;
 }
 
-export const cardData: {
-  title: string;
-  value: string;
-  icon: ReactNode;
-  change: ReactNode;
-}[] = [
+export const cardData = [
   {
     title: 'Total Supplier',
     value: '1,869',
