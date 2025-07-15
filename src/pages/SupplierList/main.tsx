@@ -59,7 +59,7 @@ const SupplierList: React.FC = () => {
             ]}
           />
         </Space>
-        <Space gap={10} align="center">
+        <Space align="center">
           <Button type="primary" size="large" icon={<FaArrowUpRightFromSquare />}>Export</Button>
           <BsGrid3X3GapFill size={35} />
           <AiOutlineMenu size={35} />
