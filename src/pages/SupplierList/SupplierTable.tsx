@@ -38,7 +38,7 @@ const SupplierTable: React.FC<{ data: DataType[] }> = ({ data }) => {
     },
   ];
 
-  return <Table columns={columns} dataSource={data} pagination={{ pageSize: 10 }} rowKey="key" />;
+  return <Table columns={columns} dataSource={data} pagination={{ pageSize: 8 }} rowKey="key" />;
 };
 
 export default SupplierTable;
